@@ -1,0 +1,134 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #e5e5e5;
+	font-family: 'Roboto', sans-serif;
+}
+
+.app-header {
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+}
+
+.main-wrapper {
+    width: 100%;
+    display: inline-flex;
+    background-color: #f1ebeb;
+}
+
+.positronx {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.box {
+	position: relative;
+    top: 0;
+    opacity: 1;
+    float: left;
+    /* padding: 60px 50px 40px 50px; */
+    width: 100%;
+    background: #fff;
+    /* border-radius: 10px; */
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    z-index: 5;
+    max-width: 330px;
+}
+
+.box.back {
+	transform: scale(.95);
+	-webkit-transform: scale(.95);
+	-ms-transform: scale(.95);
+	top: -20px;
+	opacity: .8;
+	z-index: -1;
+}
+
+.box:before {
+	content: "";
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	position: absolute;
+	top: -10px;
+	left: 0;
+	transform: scale(.95);
+	-webkit-transform: scale(.95);
+	-ms-transform: scale(.95);
+	z-index: -1;
+}
+
+.main-wrapper .example-form {
+	min-width: 85%;
+    max-width: 300px;
+    width: 85%;
+    margin: 0 5%;
+}
+
+.main-wrapper .example-full-width,
+.main-wrapper .btn-block {
+	width: 100%;
+}
+
+.main-wrapper mat-card-header {
+	text-align: center;
+	width: 100%;
+	display: block;
+	font-weight: 700;
+}
+
+.main-wrapper mat-card-header mat-card-title {
+	font-size: 30px;
+	margin: 0;
+	text-align: left;
+}
+.main-wrapper .card-row {
+	width: 100%;
+    height: 100%;
+    padding: 13% 24%;
+}
+
+.main-wrapper .mat-card {
+	height: calc(100vh - 380px);
+    width: 43%;
+}
+
+.main-wrapper .mat-stroked-button {
+	border: 1px solid currentColor;
+	line-height: 54px;
+	background: #FFF7FA;
+}
+
+.main-wrapper .mat-form-field-appearance-legacy .mat-form-field-infix {
+	padding: 0.8375em 0;
+}
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+    background-color: #3c3cda;
+    border: 1px solid;
+}
+.mat-icon {
+	padding-top: 10px;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 4px;
+    background-color: #dee4e4;
+}
+::ng-deep .mat-form-field-flex > .mat-form-field-infix { padding: 0.4em 0px !important;}
+::ng-deep .mat-form-field-label-wrapper { top: -1.5em; }
+
+::ng-deep .mat-form-field-appearance-outline.mat-form-field-can-float.mat-form-field-should-float .mat-form-field-label {
+    transform: translateY(-1.1em) scale(.75);
+    width: 133.33333%;
+}

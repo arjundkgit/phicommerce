@@ -1,0 +1,115 @@
+
+
+
+.footer{clear: both;padding: 10px;position: fixed;bottom: 0;width: 100%;background: #273272;color: #fff;}
+.leftside{float: left;}
+.rightside{float: right;    margin: 0 1% 0 0;}
+.leftside span{width: 15px;display: inline-block;vertical-align: middle;line-height: 0;}
+.leftside img{width: 100%;}
+.email {
+    color: white;
+}
+
+.fa-marktext {
+    color: #d6fd3c;
+    margin: 0px 0px;
+    text-align: right;
+    width: 50%;
+    font-size: 14px;
+    font-family: "Rockwell Bold";
+}
+
+
+.email:hover{
+    color: yellow;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa-facebook:hover {
+      opacity: 0.7;
+      color: aquamarine;
+  }
+  .fa-facebook {
+    background: #3c1239;
+    color: #f9f9f9;
+    padding: 0px;
+    font-size: 16px;
+    width: 0px;
+    border-radius: 74%;
+    text-decoration: none;
+    margin: 0px 2px;
+}
+.fa-twitter:hover {
+    opacity: 0.7;
+    color: #00acee;
+}
+.fa-twitter {
+  background: #3c1239;
+  color: #f9f9f9;
+  padding: 0px;
+  font-size: 16px;
+  width: 0px;
+  border-radius: 74%;
+  text-decoration: none;
+  margin: 0px 20px;
+}
+.fa-google:hover {
+    opacity: 0.7;
+    color: yellow;
+}
+.fa-google {
+  background: #3c1239;
+  color: #f9f9f9;
+  padding: 0px;
+  font-size: 16px;
+  width: 0px;
+  border-radius: 74%;
+  text-decoration: none;
+  margin: 0px 5px;
+}
+.fa-linkedin:hover {
+    opacity: 0.7;
+    color: #0077B5;
+}
+.fa-linkedin {
+  background: #3c1239;
+  color: #f9f9f9;
+  padding: 0px;
+  font-size: 16px;
+  width: 0px;
+  border-radius: 74%;
+  text-decoration: none;
+  margin: 0px 20px;
+}
+.fa-skype:hover {
+    opacity: 0.7;
+    color: #0077B5;
+}
+.fa-skype {
+  background: #3c1239;
+  color: #f9f9f9;
+  padding: 0px;
+  font-size: 16px;
+  width: 0px;
+  border-radius: 74%;
+  text-decoration: none;
+  margin: 0px 7px;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .fa-marktext{
+      width: 57%!important;
+  }
+  .rightside{
+    float: left;
+    margin: 0;
+  }
+}

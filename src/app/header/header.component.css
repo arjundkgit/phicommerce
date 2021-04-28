@@ -1,0 +1,25 @@
+ul li {
+    list-style: none;
+  }
+  mat-toolbar, mat-toolbar-row{
+    min-height:45px;
+    max-height:45px;
+   }
+   img {
+    width: 45px;
+    height: 30px;
+    margin-top: 5px;
+  }
+  ul {
+    display: inline-flex;
+    float: right;
+}
+.mat-toolbar.mat-primary {
+  background: #fff;
+  color: #fff;
+}
+.mat-button, .mat-icon-button, .mat-stroked-button {
+  color: #232121;
+  background: transparent;
+}
+   

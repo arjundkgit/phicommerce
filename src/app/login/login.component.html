@@ -1,0 +1,52 @@
+<div *ngIf="!isAuthenticated">
+    <div class="main-wrapper" fxLayout="row" fxLayoutAlign="center center">
+      <div class="card-row">
+        <mat-card class="box">
+          <mat-card-header>
+            <mat-card-title>Login</mat-card-title>
+            <span><p style="text-align: left;padding-left: 6%;    font-weight: 200;color: #73818f !important;">Sign in to your account</p></span>
+          </mat-card-header>
+      
+          <!-- <form class="example-form" [formGroup]="loginForm"> -->
+            <form [formGroup]="loginForm" class="example-form" (ngSubmit)="onSubmit()">
+            <mat-card-content>
+              <div style="display: inline-flex;width: 100%;">
+                <mat-icon>person_outline</mat-icon>
+                <mat-form-field class="example-full-width" appearance="outline">
+                  <input matInput placeholder="Username" [(ngModel)]="username" formControlName="username" required>
+                </mat-form-field>
+              </div>
+              <div style="display: inline-flex;width: 100%;">
+                <mat-icon>lock</mat-icon>
+                <mat-form-field class="example-full-width" appearance="outline">
+                  <input matInput placeholder="Password"[(ngModel)]="password" type="password" formControlName="password" required>
+                </mat-form-field>
+              </div>
+              <div  style="display: inline-flex;width: 100%;">
+                <div style="width: 20%;">
+                  <button mat-flat-button color="primary" (click)="show" class="button" type="submit">Login</button>
+                </div>
+                <div style="width: 77%;text-align: right;padding-top: 5px;">
+                  <a  href="" style="color: #3c3cda;">Forgot Password?</a>
+                </div>
+              </div>
+            </mat-card-content>
+          </form>
+        </mat-card>
+
+        <mat-card class="box" style="background-color: #3c3cda;color: white;text-align: center;">
+          <mat-card-header>
+            <mat-card-title><br></mat-card-title>
+            <h2 >Sign up</h2>
+          </mat-card-header>
+          <p>A signup page enables users and organizations to independently register and gain access to your system. </p>
+          <button mat-flat-button color="primary" >Register Now</button>
+        </mat-card>
+      </div>
+      
+      </div>
+    </div>
+    <!-- <div *ngIf="isAuthenticated">
+      <a href="/dashboard"></a>
+    </div> -->
+    

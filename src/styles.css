@@ -1,1 +1,127 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+table.mat-table {
+    text-align: center;
+}
+table {
+    
+    border-collapse: collapse;
+    text-align: center;
+  }
+table, th, td {
+border: 1px solid #b3aaaa;
+padding: 5px;
+}
+body .ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+    background-color: #483c88;
+    color: #ffffff;
+}
+.viewcontainer {
+    overflow: hidden;
+}
+.mat-cell {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 2px;
+}
+.page-title {
+    display: inline-flex;
+    width: 100%;
+  }
+  .page-title h1{
+    width: 95%;
+  }
+  .page-title h2{
+    width: 95%;
+  }
+
+.table-header {
+    background-color: #d0cdd6;
+    font-size: medium;
+    text-align: center;
+}
+.ui-grid-row {width: 15%;}
+.width-85 {
+    width: 100%;
+    margin-top: 5px;
+    display: inline-flex;
+}
+.ui-grid-col-3 {
+    width: 50%;
+    margin: 1.5% 2.5%;
+}
+
+.inner-filter {
+    padding-bottom: 5px;
+    display: inline-flex;
+    width: 100%;
+    height: 48px;
+}
+.marginright10{margin-right: 10px;}
+tbody tr:nth-child(even){
+    background-color: #f1eff4;
+    height: 20px;
+}
+        
+tbody tr:nth-child(odd){
+    background-color: white;
+    height: 20px;
+}
+
+.mat-sort-header-sorted {
+    text-align: center;
+}
+.mat-sort-header-container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.viewpass{width: 30px;padding: 5px;position: absolute;right: 0;bottom: 8px;cursor: pointer;}
+.viewpass img{width: 100%;}
+.icon {
+    cursor: pointer;
+}
+.no-data {
+    width: 100%;
+      text-align: center;
+      background-color: #eef0f4;
+  }
+  .no-data h3 {
+    padding-top: 10px;
+      margin: 0;
+      color: darkgray;
+  }
+  .mat-header-row, .mat-row {
+    min-height: 30px;
+  }
+  .loader{position: fixed;left: 0;right: 0;background: #1b0d2233;height: 100%;text-align: center;display: block;z-index: 12000;}
+.loadercontainer{width: 100%;height: 100%;display: table;}
+.loadersubcontainer{display: table-cell;vertical-align: middle;    padding: 0 47%;}
+.loader img{width: 100px;}
+.tableview .ui-table-caption{width: 100%;float: left;}
+body .ui-table .ui-table-tbody > tr > td {white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 150px;}
+table{width:100%; border-collapse: collapse;}
+table td{padding: 2px;font-size: 14px;}
+ table tr{height: 15px;}
+table thead{background: #d0cdd6;color: black;font-weight: bold;padding: 5px;font-size: 14px;}
+table th td {cursor: pointer;}
+.tableview{font-size: 8px;}
+.mat-icon {
+    cursor: pointer;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.mat-drawer-inner-container {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #3c4b64;
+    -webkit-overflow-scrolling: touch;
+}
